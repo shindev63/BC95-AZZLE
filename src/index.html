@@ -1,0 +1,895 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azzle - AI Technology & Startup HTML Template</title>
+    <!-- link cdn flowbite -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <!-- link animate  -->
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- link cdn Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+
+  <body class="bg-white min-h-screen">
+    <div
+      class="bg-[#EFEAE3] rounded-b-[48px] md:rounded-b-[72px] pb-16 md:pb-24 overflow-hidden"
+    >
+      <header class="bg-[#EFEAE3]">
+        <div class="container">
+          <nav class="bg-transparent">
+            <div
+              class="max-w-screen-xl mx-auto flex flex-wrap md:flex-nowrap items-center gap-4 px-4 py-5"
+            >
+              <!-- Logo  -->
+              <a href="#" class="shrink-0 flex items-center">
+                <img
+                  src="./img/logo-dark.png"
+                  alt="Azzle Logo"
+                  width="96"
+                  height="24"
+                />
+              </a>
+
+              <!-- Menu  -->
+              <div
+                id="navbar-cta"
+                class="hidden w-full md:flex md:flex-1 md:justify-center order-3 md:order-2"
+              >
+                <ul
+                  class="flex flex-col md:flex-row md:items-center gap-4 md:gap-12 font-semibold text-[17px]"
+                >
+                  <!--  Demo  -->
+                  <li class="relative group">
+                    <a
+                      href="#"
+                      class="inline-flex items-center gap-2 text-gray-900 transition-colors"
+                    >
+                      Demo
+                      <svg
+                        class="h-4 w-4 text-gray-500 transition-transform duration-200 group-hover:-rotate-90"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m19 9-7 7-7-7"
+                        />
+                      </svg>
+                    </a>
+
+                    <div
+                      class="absolute left-0 top-full pt-4 z-50 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto transition duration-200"
+                    >
+                      <div
+                        class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
+                      >
+                        <a
+                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          href="#"
+                          >Home 01</a
+                        >
+                        <a
+                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          href="#"
+                          >Home 02</a
+                        >
+                        <a
+                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          href="#"
+                          >Home 03</a
+                        >
+                        <a
+                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          href="#"
+                          >Home 04</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+
+                  <!--  About  -->
+                  <li>
+                    <a href="#" class="text-gray-900 transition-colors"
+                      >About</a
+                    >
+                  </li>
+
+                  <!--  Services  -->
+                  <li class="relative group">
+                    <a
+                      href="#"
+                      class="inline-flex items-center gap-2 text-gray-900 transition-colors"
+                    >
+                      Services
+                      <svg
+                        class="h-4 w-4 text-gray-500 transition-transform duration-200 group-hover:-rotate-90"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m19 9-7 7-7-7"
+                        />
+                      </svg>
+                    </a>
+
+                    <div
+                      class="absolute left-0 top-full pt-4 z-50 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto transition duration-200"
+                    >
+                      <div
+                        class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
+                      >
+                        <a
+                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          href="#"
+                          >Services</a
+                        >
+                        <a
+                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          href="#"
+                          >Service Details</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Pages  -->
+                  <li class="relative group">
+                    <a
+                      href="#"
+                      class="inline-flex items-center gap-2 text-gray-900 transition-colors"
+                    >
+                      Pages
+                      <svg
+                        class="h-4 w-4 text-gray-500 transition-transform duration-200 group-hover:-rotate-90"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m19 9-7 7-7-7"
+                        />
+                      </svg>
+                    </a>
+
+                    <div
+                      class="absolute left-0 top-full pt-4 z-50 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto transition duration-200"
+                    >
+                      <div
+                        class="w-64 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
+                      >
+                        <!-- Blogs -->
+                        <div class="relative group/item">
+                          <a
+                            href="#"
+                            class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          >
+                            Blogs <span>&gt;</span>
+                          </a>
+
+                          <div
+                            class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200"
+                          >
+                            <div
+                              class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
+                            >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >Blogs</a
+                              >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >Blog Details</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Team -->
+                        <div class="relative group/item">
+                          <a
+                            href="#"
+                            class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          >
+                            Team <span>&gt;</span>
+                          </a>
+                          <div
+                            class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200"
+                          >
+                            <div
+                              class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
+                            >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >Teams</a
+                              >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >Teams Details</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- FAQ -->
+                        <div class="relative group/item">
+                          <a
+                            href="#"
+                            class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          >
+                            FAQ <span>&gt;</span>
+                          </a>
+                          <div
+                            class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200"
+                          >
+                            <div
+                              class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
+                            >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >FAQ-1</a
+                              >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >FAQ-2</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Portfolio -->
+                        <div class="relative group/item">
+                          <a
+                            href="#"
+                            class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          >
+                            Portfolio <span>&gt;</span>
+                          </a>
+                          <div
+                            class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200"
+                          >
+                            <div
+                              class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
+                            >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >Portfolio</a
+                              >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >Portfolio Details</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Pricing -->
+                        <a
+                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          href="#"
+                        >
+                          Pricing
+                        </a>
+
+                        <!-- Utilities -->
+                        <div class="relative group/item">
+                          <a
+                            href="#"
+                            class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                          >
+                            Utilities <span>&gt;</span>
+                          </a>
+                          <div
+                            class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200"
+                          >
+                            <div
+                              class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
+                            >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >Error 404</a
+                              >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >Login</a
+                              >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >Signup</a
+                              >
+                              <a
+                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                                href="#"
+                                >Reset Password</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!-- Contact  -->
+                  <li>
+                    <a href="#" class="text-gray-900 transition-colors"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+
+                <div class="mt-4 flex gap-3 md:hidden">
+                  <button
+                    class="flex-1 rounded-full border border-black/40 px-5 py-2 text-sm font-semibold"
+                  >
+                    Login
+                  </button>
+                  <button
+                    class="flex-1 rounded-full bg-black px-5 py-2 text-sm font-semibold text-white"
+                  >
+                    Sign up free
+                  </button>
+                </div>
+              </div>
+
+              <!-- Buttons  -->
+              <div class="order-2 ml-auto md:order-3 flex items-center gap-4">
+                <button
+                  type="button"
+                  class="hidden md:inline-flex items-center justify-center rounded-full border border-black/40 bg-transparent px-7 py-3 text-base font-bold text-black hover:bg-[#FE330A] hover:text-white hover:border-[#FE330A] transition-colors duration-700"
+                >
+                  Login
+                </button>
+
+                <button
+                  type="button"
+                  class="hidden md:inline-flex items-center justify-center rounded-full bg-black px-7 py-3 text-base font-bold text-white hover:bg-[#FE330A] transition-colors duration-700"
+                >
+                  Sign up free
+                </button>
+
+                <button
+                  data-collapse-toggle="navbar-cta"
+                  type="button"
+                  class="inline-flex md:hidden items-center justify-center h-10 w-10 rounded-lg text-gray-700 hover:bg-black/5 focus:outline-none focus:ring-2 focus:ring-black/10"
+                  aria-controls="navbar-cta"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="w-5 h-5" viewBox="0 0 17 14" fill="none">
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 1h15M1 7h15M1 13h15"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="relative overflow-hidden">
+        <!-- ORANGE BLUR (vệt mờ màu cam bên phải) -->
+        <div
+          class=" bg-[#FC6733] absolute -right-[150px] top-[270px] z-[1] h-[500px] w-[500px] rounded-[500px] blur-2xl"
+        ></div>
+        <div
+          class=" bg-[#FF7825] absolute -right-[10px] top-[500px] z-[1] h-[500px] w-[500px] rounded-[500px] blur-2xl"
+        ></div>
+
+        <div class="container relative z-10">
+          <div class="mx-auto max-w-6xl px-6 py-16 md:py-24 text-center">
+            <h1
+              class="font-bold leading-[0.95] tracking-tight text-black text-[120px] animate__animated animate__fadeInUp wow"
+            >
+              Simplify your SaaS <br class="hidden md:block" />
+              solution with AI
+            </h1>
+
+            <p
+              class="mx-auto mt-6 text-black/80 text-[20px] font-semibold leading-relaxed  animate__animated animate__fadeInUp wow"
+            >
+              Our AI SAAS tool is a cloud-based software delivery model. It
+              helps businesses forecast demand for <br />
+              products and services and optimize inventory management and supply
+              chain operations.
+            </p>
+
+            <div class="mt-10 flex flex-wrap justify-center gap-4">
+              <button
+                type="button"
+                class="hidden md:inline-flex items-center justify-center rounded-full bg-black px-7 py-3 text-base font-bold text-white hover:bg-[#FE330A] transition-colors duration-700 animate__animated wow animate__fadeIn"
+              >
+                Get started for free
+              </button>
+
+              <button
+                type="button"
+                class="hidden md:inline-flex items-center justify-center rounded-full border-2 border-black bg-transparent px-7 py-3 text-base font-bold text-black hover:bg-[#FE330A] hover:text-white hover:border-[#FE330A] transition-colors duration-700  animate__animated wow animate__fadeIn"
+              >
+                Learn more
+              </button>
+            </div>
+          </div>
+
+          <div class="overflow-hidden rounded-2xl animate__animated wow animate__zoomIn">
+            <img
+              src="./img/hero-dashboard.jpg"
+              alt="dashboard"
+              width="1296"
+              height="640"
+              class="h-auto w-full"
+            />
+          </div>
+
+          <div>
+            <hr class="my-20 text-[14px] w-full opacity-10 lengt" size="1px" />
+          </div>
+
+          <div class="text-center my-15 animate__animated animate__fadeInUp wow">
+            <p class="text-[18px]">
+              Companies of all sizes trust us to find AI SaaS critical to their
+              growth and innovation
+            </p>
+          </div>
+
+          <!-- Slider -->
+          <div class="mx-auto max-w-6xl px-6 py-10 animate__animated animate__fadeInUp wow">
+            <div class="overflow-hidden">
+              <div class="swiper brand-slider w-full">
+                <div class="swiper-wrapper !ease-linear items-center">
+                  <div class="swiper-slide flex items-center justify-center">
+                    <img
+                      src="./img/brand-1.png"
+                      class="h-8 w-auto object-contain"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="swiper-slide flex items-center justify-center">
+                    <img
+                      src="./img/brand-2.png"
+                      class="h-8 w-auto object-contain"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="swiper-slide flex items-center justify-center">
+                    <img
+                      src="./img/brand-3.png"
+                      class="h-8 w-auto object-contain"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="swiper-slide flex items-center justify-center">
+                    <img
+                      src="./img/brand-4.png"
+                      class="h-8 w-auto object-contain"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="swiper-slide flex items-center justify-center">
+                    <img
+                      src="./img/brand-5.png"
+                      class="h-8 w-auto object-contain"
+                      alt=""
+                    />
+                  </div>
+
+                  <!-- duplicate -->
+                  <div class="swiper-slide flex items-center justify-center">
+                    <img
+                      src="./img/brand-1.png"
+                      class="h-8 w-auto object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide flex items-center justify-center">
+                    <img
+                      src="./img/brand-2.png"
+                      class="h-8 w-auto object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide flex items-center justify-center">
+                    <img
+                      src="./img/brand-3.png"
+                      class="h-8 w-auto object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide flex items-center justify-center">
+                    <img
+                      src="./img/brand-4.png"
+                      class="h-8 w-auto object-contain"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide flex items-center justify-center">
+                    <img
+                      src="./img/brand-5.png"
+                      class="h-8 w-auto object-contain"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="container pt-25">
+      <h1 class="text-[80px] font-bold leading-[1.05] pb-10 animate__animated animate__fadeInUp wow">
+        Core features that <br />make it valuable
+      </h1>
+
+      <!-- Feature table (NO ellipsis, NO wrap) -->
+      <div class="mt-10 overflow-hidden rounded-2xl border-2 border-black animate__animated animate__fadeInUp wow">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <!-- Item 1 -->
+          <a
+            href="#"
+            class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black border-b border-black md:border-r lg:border-b-0"
+          >
+            <div class="relative mb-8 h-14 w-14">
+              <img
+                src="./img/service-icon-black-1.svg"
+                alt=""
+                class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0"
+              />
+              <img
+                src="./img/service-icon-orange-1.svg"
+                alt=""
+                class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              />
+            </div>
+
+            <h3
+              class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]"
+            >
+              Resource Flexibility
+            </h3>
+
+            <p
+              class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white"
+            >
+              This is an excellent option for people &amp; small businesses who
+              are starting out.
+            </p>
+
+            <div class="mt-auto pt-10">
+              <span
+                class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]"
+              >
+                →
+              </span>
+            </div>
+          </a>
+
+          <!-- Item 2 -->
+          <a
+            href="#"
+            class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black border-b border-black lg:border-r lg:border-b-0"
+          >
+            <div class="relative mb-8 h-14 w-14">
+              <img
+                src="./img/service-icon-black-2.svg"
+                alt=""
+                class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0"
+              />
+              <img
+                src="./img/service-icon-orange-2.svg"
+                alt=""
+                class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              />
+            </div>
+
+            <h3
+              class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]"
+            >
+              Managed Services
+            </h3>
+
+            <p
+              class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white"
+            >
+              This is an excellent option for people &amp; small businesses who
+              are starting out.
+            </p>
+
+            <div class="mt-auto pt-10">
+              <span
+                class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]"
+              >
+                →
+              </span>
+            </div>
+          </a>
+
+          <!-- Item 3 -->
+          <a
+            href="#"
+            class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black border-b border-black md:border-b-0 md:border-r lg:border-r"
+          >
+            <div class="relative mb-8 h-14 w-14">
+              <img
+                src="./img/service-icon-black-3.svg"
+                alt=""
+                class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0"
+              />
+              <img
+                src="./img/service-icon-orange-3.svg"
+                alt=""
+                class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              />
+            </div>
+
+            <h3
+              class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]"
+            >
+              Web-Based Access
+            </h3>
+
+            <p
+              class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white"
+            >
+              This is an excellent option for people &amp; small businesses who
+              are starting out.
+            </p>
+
+            <div class="mt-auto pt-10">
+              <span
+                class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]"
+              >
+                →
+              </span>
+            </div>
+          </a>
+
+          <!-- Item 4 -->
+          <a
+            href="#"
+            class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black"
+          >
+            <div class="relative mb-8 h-14 w-14">
+              <img
+                src="./img/service-icon-black-4.svg"
+                alt=""
+                class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0"
+              />
+              <img
+                src="./img/service-icon-orange-4.svg"
+                alt=""
+                class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              />
+            </div>
+
+            <h3
+              class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]"
+            >
+              Resource Flexibility
+            </h3>
+
+            <p
+              class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white"
+            >
+              This is an excellent option for people &amp; small businesses who
+              are starting out.
+            </p>
+
+            <div class="mt-auto pt-10">
+              <span
+                class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]"
+              >
+                →
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="mt-24 grid items-center gap-80 lg:grid-cols-2 lg:gap-16 container"
+    >
+      <!-- Left image -->
+      <div>
+        <div
+          class="overflow-hidden rounded-2xl bg-[#111] shadow-2xl ring-1 ring-black/10 mr-15
+          animate__animated animate__fadeInLeft wow "
+        >
+          <!-- Thay src bằng ảnh của bạn -->
+          <img
+            src="./img/content-image-1.jpg"
+            alt="Analytics chart"
+            class="h-auto w-full object-cover"
+          />
+        </div>
+      </div>
+
+      <!-- Right content -->
+      <div class="animate__animated animate__fadeInRight wow">
+        <h2
+          class="font-bold tracking-tight text-black text-[80px] leading-[1.05]"
+        >
+          Accessible to a <br />wider audience
+        </h2>
+
+        <p class="mt-8 text-[21px] leading-relaxed text-black/80">
+          Advanced AI capabilities accessible to a broader audience, <br />
+          including small & medium-sized businesses and individuals <br />
+          who may not have the resources or expertise to develop.
+        </p>
+
+        <p class="mt-6 text-[21px] leading-relaxed text-black/80">
+          Advanced AI capabilities accessible to a broader audience, including
+          small & medium-sized businesses and individuals <br />
+          who may not have the resources or expertise to develop.
+        </p>
+      </div>
+    </section>
+    <section class="container pb-40">
+      <!-- NEXT BLOCK: Providing quick deploy solutions -->
+      <div class="mt-24 grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+        <!-- Left content -->
+        <div class="animate__animated animate__fadeInRight wow">
+          <h2
+            class="font-bold tracking-tight text-black text-5xl md:text-6xl lg:text-7xl leading-[1.05] "
+          >
+            Providing quick <br />
+            deploy solutions
+          </h2>
+
+          <p class="mt-8 text-[18px] leading-relaxed text-black/80 max-w-xl">
+            Our AI SaaS solutions can be quickly deployed, enabling users to
+            start benefiting from AI capabilities without lengthy setup and
+            development times in fast-paced industries.
+          </p>
+
+          <!-- Tick list -->
+          <ul class="mt-10 space-y-6">
+            <li class="flex items-center gap-4">
+              <!-- Tick icon (thay src ảnh tick của bạn) -->
+              <span class="shrink-0 h-7 w-7">
+                <img
+                  src="./img/check-circle.svg"
+                  alt=""
+                  class="h-full w-full object-contain"
+                />
+              </span>
+              <span class="text-[22px] md:text-[24px] font-bold text-black">
+                Ready-to-use AI capabilities system
+              </span>
+            </li>
+
+            <li class="flex items-center gap-4">
+              <span class="shrink-0 h-7 w-7">
+                <img
+                  src="./img/check-circle.svg"
+                  alt=""
+                  class="h-full w-full object-contain"
+                />
+              </span>
+              <span class="text-[22px] md:text-[24px] font-bold text-black">
+                Users can quickly integrate AI features
+              </span>
+            </li>
+
+            <li class="flex items-center gap-4 ">
+              <span class="shrink-0 h-7 w-7">
+                <img
+                  src="./img/check-circle.svg"
+                  alt=""
+                  class="h-full w-full object-contain"
+                />
+              </span>
+              <span class="text-[22px] md:text-[24px] font-bold text-black">
+                Time savings translate to cost savings
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right image -->
+        <div>
+          <div
+            class="overflow-hidden rounded-2xl bg-[#111] shadow-2xl ring-1 ring-black/10 animate__animated animate__fadeInLeft wow"
+          >
+            <!-- Thay src bằng ảnh dashboard của bạn -->
+            <img
+              src="./img/content-image-2.jpg"
+              alt="Traffic by location"
+              class="h-auto w-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- link script swiper  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        new Swiper(".brand-slider", {
+          loop: true,
+          slidesPerView: 5,
+          spaceBetween: 80,
+          slidesPerGroup: 1,
+          speed: 600,
+          autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          },
+          allowTouchMove: true,
+          grabCursor: true,
+          breakpoints: {
+            0: { slidesPerView: 2, spaceBetween: 24 },
+            640: { slidesPerView: 3, spaceBetween: 40 },
+            768: { slidesPerView: 4, spaceBetween: 60 },
+            1024: { slidesPerView: 5, spaceBetween: 80 },
+          },
+        });
+      });
+    </script>
+    
+    <!-- wowjs script 
+      -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new WOW().init();
+    </script>
+
+    <!-- link script flowbite -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  </body>
+</html>
