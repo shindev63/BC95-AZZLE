@@ -1,14 +1,106 @@
 @import "tailwindcss";
 
+@theme {
+  --color-colorOrangyRed: #fe330a;
+  --color-colorCodGray: #1c1c1c;
+  --color-colorLinenRuffle: #f7f1e9;
+}
+
 * {
-    font-family:sans-serif ;
-
-}
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1332px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+  font-family: sans-serif;
 }
 
+/* Định nghĩa global-container giống hệt mẫu Azzle */
+.global-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1332px; /* Căn chỉnh theo project của bạn */
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1500px) {
+  .global-container {
+    max-width: 1500px;
+  }
+}
+
+/* Style cho Tab Pricing */
+.price-button {
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.price-button.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.tab-content.hidden {
+  display: none;
+}
+/* Trạng thái mở Accordion */
+.accordion-item.active .accordion-content {
+  max-height: 200px; /* Độ cao khi mở ra */
+}
+
+.accordion-item.active .v-line {
+  transform: rotate(90deg);
+  opacity: 0; /* Biến dấu + thành dấu - */
+}
+
+/* Hiệu ứng chuyển cảnh */
+.accordion-content {
+  transition: max-height 0.5s ease-in-out;
+}
+* Hiệu ứng mượt cho thẻ Card */ .testimonial-card {
+  transition: all 0.4s ease-in-out;
+  border-width: 1px;
+  border-color: transparent;
+}
+.testimonial-card {
+  border: 1px solid #1c1c1c; /* Viền mặc định tối */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Khi hover vào card, hiện viền cam */
+
+/* Vòng tròn màu cam bao quanh Avatar */
+/* .avatar-ring {
+  border: 2px solid var(--color-colorOrangyRed);
+  padding: 2px;
+} */
+
+/* Hiệu ứng cho các link ở footer */
+/* Hiệu ứng chạy chữ cho Footer Slider */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.footer-text-slider {
+  display: flex;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+/* Khối Gradient trang trí phía sau */
+.orange-gradient-1 {
+  background: radial-gradient(
+    circle,
+    rgba(254, 51, 10, 0.4) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+}
+.orange-gradient-2 {
+  background: radial-gradient(
+    circle,
+    rgba(254, 51, 10, 0.2) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+}

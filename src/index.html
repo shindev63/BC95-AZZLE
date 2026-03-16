@@ -1,895 +1,1159 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Azzle - AI Technology & Startup HTML Template</title>
-    <!-- link cdn flowbite -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
-      rel="stylesheet"
-    />
-    <!-- link animate  -->
-     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <!-- link cdn Swiper -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <!-- link css -->
-    <link rel="stylesheet" href="./css/output.css" />
-  </head>
 
-  <body class="bg-white min-h-screen">
-    <div
-      class="bg-[#EFEAE3] rounded-b-[48px] md:rounded-b-[72px] pb-16 md:pb-24 overflow-hidden"
-    >
-      <header class="bg-[#EFEAE3]">
-        <div class="container">
-          <nav class="bg-transparent">
-            <div
-              class="max-w-screen-xl mx-auto flex flex-wrap md:flex-nowrap items-center gap-4 px-4 py-5"
-            >
-              <!-- Logo  -->
-              <a href="#" class="shrink-0 flex items-center">
-                <img
-                  src="./img/logo-dark.png"
-                  alt="Azzle Logo"
-                  width="96"
-                  height="24"
-                />
-              </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azzle - AI Technology & Startup HTML Template</title>
+  <!-- link cdn flowbite -->
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+  <!-- link animate  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- link cdn Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <!-- link css -->
+  <link rel="stylesheet" href="./css/output.css" />
+</head>
 
-              <!-- Menu  -->
-              <div
-                id="navbar-cta"
-                class="hidden w-full md:flex md:flex-1 md:justify-center order-3 md:order-2"
-              >
-                <ul
-                  class="flex flex-col md:flex-row md:items-center gap-4 md:gap-12 font-semibold text-[17px]"
-                >
-                  <!--  Demo  -->
-                  <li class="relative group">
-                    <a
-                      href="#"
-                      class="inline-flex items-center gap-2 text-gray-900 transition-colors"
-                    >
-                      Demo
-                      <svg
-                        class="h-4 w-4 text-gray-500 transition-transform duration-200 group-hover:-rotate-90"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="m19 9-7 7-7-7"
-                        />
-                      </svg>
-                    </a>
+<body class="bg-white min-h-screen">
+  <div class="bg-[#EFEAE3] rounded-b-[48px] md:rounded-b-[72px] pb-16 md:pb-24 overflow-hidden">
+    <header class="bg-[#EFEAE3]">
+      <div class="container">
+        <nav class="bg-transparent">
+          <div class="max-w-screen-xl mx-auto flex flex-wrap md:flex-nowrap items-center gap-4 px-4 py-5">
+            <!-- Logo  -->
+            <a href="#" class="shrink-0 flex items-center">
+              <img src="./img/logo-dark.png" alt="Azzle Logo" width="96" height="24" />
+            </a>
 
-                    <div
-                      class="absolute left-0 top-full pt-4 z-50 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto transition duration-200"
-                    >
-                      <div
-                        class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
-                      >
-                        <a
-                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          href="#"
-                          >Home 01</a
-                        >
-                        <a
-                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          href="#"
-                          >Home 02</a
-                        >
-                        <a
-                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          href="#"
-                          >Home 03</a
-                        >
-                        <a
-                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          href="#"
-                          >Home 04</a
-                        >
-                      </div>
+            <!-- Menu  -->
+            <div id="navbar-cta" class="hidden w-full md:flex md:flex-1 md:justify-center order-3 md:order-2">
+              <ul class="flex flex-col md:flex-row md:items-center gap-4 md:gap-12 font-semibold text-[17px]">
+                <!--  Demo  -->
+                <li class="relative group">
+                  <a href="#" class="inline-flex items-center gap-2 text-gray-900 transition-colors">
+                    Demo
+                    <svg class="h-4 w-4 text-gray-500 transition-transform duration-200 group-hover:-rotate-90"
+                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                      aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7" />
+                    </svg>
+                  </a>
+
+                  <div
+                    class="absolute left-0 top-full pt-4 z-50 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto transition duration-200">
+                    <div class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5">
+                      <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                        href="#">Home 01</a>
+                      <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                        href="#">Home 02</a>
+                      <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                        href="#">Home 03</a>
+                      <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                        href="#">Home 04</a>
                     </div>
-                  </li>
+                  </div>
+                </li>
 
-                  <!--  About  -->
-                  <li>
-                    <a href="#" class="text-gray-900 transition-colors"
-                      >About</a
-                    >
-                  </li>
+                <!--  About  -->
+                <li>
+                  <a href="#" class="text-gray-900 transition-colors">About</a>
+                </li>
 
-                  <!--  Services  -->
-                  <li class="relative group">
-                    <a
-                      href="#"
-                      class="inline-flex items-center gap-2 text-gray-900 transition-colors"
-                    >
-                      Services
-                      <svg
-                        class="h-4 w-4 text-gray-500 transition-transform duration-200 group-hover:-rotate-90"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="m19 9-7 7-7-7"
-                        />
-                      </svg>
-                    </a>
+                <!--  Services  -->
+                <li class="relative group">
+                  <a href="#" class="inline-flex items-center gap-2 text-gray-900 transition-colors">
+                    Services
+                    <svg class="h-4 w-4 text-gray-500 transition-transform duration-200 group-hover:-rotate-90"
+                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                      aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7" />
+                    </svg>
+                  </a>
 
-                    <div
-                      class="absolute left-0 top-full pt-4 z-50 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto transition duration-200"
-                    >
-                      <div
-                        class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
-                      >
-                        <a
-                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          href="#"
-                          >Services</a
-                        >
-                        <a
-                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          href="#"
-                          >Service Details</a
-                        >
-                      </div>
+                  <div
+                    class="absolute left-0 top-full pt-4 z-50 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto transition duration-200">
+                    <div class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5">
+                      <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                        href="#">Services</a>
+                      <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                        href="#">Service Details</a>
                     </div>
-                  </li>
+                  </div>
+                </li>
 
-                  <!-- Pages  -->
-                  <li class="relative group">
-                    <a
-                      href="#"
-                      class="inline-flex items-center gap-2 text-gray-900 transition-colors"
-                    >
-                      Pages
-                      <svg
-                        class="h-4 w-4 text-gray-500 transition-transform duration-200 group-hover:-rotate-90"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="m19 9-7 7-7-7"
-                        />
-                      </svg>
-                    </a>
+                <!-- Pages  -->
+                <li class="relative group">
+                  <a href="#" class="inline-flex items-center gap-2 text-gray-900 transition-colors">
+                    Pages
+                    <svg class="h-4 w-4 text-gray-500 transition-transform duration-200 group-hover:-rotate-90"
+                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                      aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7" />
+                    </svg>
+                  </a>
 
-                    <div
-                      class="absolute left-0 top-full pt-4 z-50 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto transition duration-200"
-                    >
-                      <div
-                        class="w-64 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
-                      >
-                        <!-- Blogs -->
-                        <div class="relative group/item">
-                          <a
-                            href="#"
-                            class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          >
-                            Blogs <span>&gt;</span>
-                          </a>
-
-                          <div
-                            class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200"
-                          >
-                            <div
-                              class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
-                            >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >Blogs</a
-                              >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >Blog Details</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- Team -->
-                        <div class="relative group/item">
-                          <a
-                            href="#"
-                            class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          >
-                            Team <span>&gt;</span>
-                          </a>
-                          <div
-                            class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200"
-                          >
-                            <div
-                              class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
-                            >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >Teams</a
-                              >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >Teams Details</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- FAQ -->
-                        <div class="relative group/item">
-                          <a
-                            href="#"
-                            class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          >
-                            FAQ <span>&gt;</span>
-                          </a>
-                          <div
-                            class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200"
-                          >
-                            <div
-                              class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
-                            >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >FAQ-1</a
-                              >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >FAQ-2</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- Portfolio -->
-                        <div class="relative group/item">
-                          <a
-                            href="#"
-                            class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          >
-                            Portfolio <span>&gt;</span>
-                          </a>
-                          <div
-                            class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200"
-                          >
-                            <div
-                              class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
-                            >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >Portfolio</a
-                              >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >Portfolio Details</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- Pricing -->
-                        <a
-                          class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          href="#"
-                        >
-                          Pricing
+                  <div
+                    class="absolute left-0 top-full pt-4 z-50 opacity-0 invisible pointer-events-none group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto transition duration-200">
+                    <div class="w-64 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5">
+                      <!-- Blogs -->
+                      <div class="relative group/item">
+                        <a href="#"
+                          class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition">
+                          Blogs <span>&gt;</span>
                         </a>
 
-                        <!-- Utilities -->
-                        <div class="relative group/item">
-                          <a
-                            href="#"
-                            class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                          >
-                            Utilities <span>&gt;</span>
-                          </a>
-                          <div
-                            class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200"
-                          >
-                            <div
-                              class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5"
-                            >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >Error 404</a
-                              >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >Login</a
-                              >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >Signup</a
-                              >
-                              <a
-                                class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
-                                href="#"
-                                >Reset Password</a
-                              >
-                            </div>
+                        <div
+                          class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200">
+                          <div class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5">
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">Blogs</a>
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">Blog Details</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Team -->
+                      <div class="relative group/item">
+                        <a href="#"
+                          class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition">
+                          Team <span>&gt;</span>
+                        </a>
+                        <div
+                          class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200">
+                          <div class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5">
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">Teams</a>
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">Teams Details</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- FAQ -->
+                      <div class="relative group/item">
+                        <a href="#"
+                          class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition">
+                          FAQ <span>&gt;</span>
+                        </a>
+                        <div
+                          class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200">
+                          <div class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5">
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">FAQ-1</a>
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">FAQ-2</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Portfolio -->
+                      <div class="relative group/item">
+                        <a href="#"
+                          class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition">
+                          Portfolio <span>&gt;</span>
+                        </a>
+                        <div
+                          class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200">
+                          <div class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5">
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">Portfolio</a>
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">Portfolio Details</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Pricing -->
+                      <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition" href="#">
+                        Pricing
+                      </a>
+
+                      <!-- Utilities -->
+                      <div class="relative group/item">
+                        <a href="#"
+                          class="flex items-center justify-between px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition">
+                          Utilities <span>&gt;</span>
+                        </a>
+                        <div
+                          class="absolute left-full top-0 pl-4 opacity-0 invisible pointer-events-none group-hover/item:opacity-100 group-hover/item:visible group-hover/item:pointer-events-auto transition duration-200">
+                          <div class="w-56 rounded-xl bg-white p-3 shadow-lg ring-1 ring-black/5">
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">Error 404</a>
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">Login</a>
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">Signup</a>
+                            <a class="block px-4 py-2 rounded-lg hover:bg-black/5 hover:text-[#FE330A] transition"
+                              href="#">Reset Password</a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </li>
+                  </div>
+                </li>
 
-                  <!-- Contact  -->
-                  <li>
-                    <a href="#" class="text-gray-900 transition-colors"
-                      >Contact</a
-                    >
-                  </li>
-                </ul>
+                <!-- Contact  -->
+                <li>
+                  <a href="#" class="text-gray-900 transition-colors">Contact</a>
+                </li>
+              </ul>
 
-                <div class="mt-4 flex gap-3 md:hidden">
-                  <button
-                    class="flex-1 rounded-full border border-black/40 px-5 py-2 text-sm font-semibold"
-                  >
-                    Login
-                  </button>
-                  <button
-                    class="flex-1 rounded-full bg-black px-5 py-2 text-sm font-semibold text-white"
-                  >
-                    Sign up free
-                  </button>
-                </div>
-              </div>
-
-              <!-- Buttons  -->
-              <div class="order-2 ml-auto md:order-3 flex items-center gap-4">
-                <button
-                  type="button"
-                  class="hidden md:inline-flex items-center justify-center rounded-full border border-black/40 bg-transparent px-7 py-3 text-base font-bold text-black hover:bg-[#FE330A] hover:text-white hover:border-[#FE330A] transition-colors duration-700"
-                >
+              <div class="mt-4 flex gap-3 md:hidden">
+                <button class="flex-1 rounded-full border border-black/40 px-5 py-2 text-sm font-semibold">
                   Login
                 </button>
-
-                <button
-                  type="button"
-                  class="hidden md:inline-flex items-center justify-center rounded-full bg-black px-7 py-3 text-base font-bold text-white hover:bg-[#FE330A] transition-colors duration-700"
-                >
+                <button class="flex-1 rounded-full bg-black px-5 py-2 text-sm font-semibold text-white">
                   Sign up free
-                </button>
-
-                <button
-                  data-collapse-toggle="navbar-cta"
-                  type="button"
-                  class="inline-flex md:hidden items-center justify-center h-10 w-10 rounded-lg text-gray-700 hover:bg-black/5 focus:outline-none focus:ring-2 focus:ring-black/10"
-                  aria-controls="navbar-cta"
-                  aria-expanded="false"
-                >
-                  <span class="sr-only">Open main menu</span>
-                  <svg class="w-5 h-5" viewBox="0 0 17 14" fill="none">
-                    <path
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M1 1h15M1 7h15M1 13h15"
-                    />
-                  </svg>
                 </button>
               </div>
             </div>
-          </nav>
-        </div>
-      </header>
-      <section class="relative overflow-hidden">
-        <!-- ORANGE BLUR (vệt mờ màu cam bên phải) -->
-        <div
-          class=" bg-[#FC6733] absolute -right-[150px] top-[270px] z-[1] h-[500px] w-[500px] rounded-[500px] blur-2xl"
-        ></div>
-        <div
-          class=" bg-[#FF7825] absolute -right-[10px] top-[500px] z-[1] h-[500px] w-[500px] rounded-[500px] blur-2xl"
-        ></div>
 
-        <div class="container relative z-10">
-          <div class="mx-auto max-w-6xl px-6 py-16 md:py-24 text-center">
-            <h1
-              class="font-bold leading-[0.95] tracking-tight text-black text-[120px] animate__animated animate__fadeInUp wow"
-            >
-              Simplify your SaaS <br class="hidden md:block" />
-              solution with AI
-            </h1>
-
-            <p
-              class="mx-auto mt-6 text-black/80 text-[20px] font-semibold leading-relaxed  animate__animated animate__fadeInUp wow"
-            >
-              Our AI SAAS tool is a cloud-based software delivery model. It
-              helps businesses forecast demand for <br />
-              products and services and optimize inventory management and supply
-              chain operations.
-            </p>
-
-            <div class="mt-10 flex flex-wrap justify-center gap-4">
-              <button
-                type="button"
-                class="hidden md:inline-flex items-center justify-center rounded-full bg-black px-7 py-3 text-base font-bold text-white hover:bg-[#FE330A] transition-colors duration-700 animate__animated wow animate__fadeIn"
-              >
-                Get started for free
+            <!-- Buttons  -->
+            <div class="order-2 ml-auto md:order-3 flex items-center gap-4">
+              <button type="button"
+                class="hidden md:inline-flex items-center justify-center rounded-full border border-black/40 bg-transparent px-7 py-3 text-base font-bold text-black hover:bg-[#FE330A] hover:text-white hover:border-[#FE330A] transition-colors duration-700">
+                Login
               </button>
 
-              <button
-                type="button"
-                class="hidden md:inline-flex items-center justify-center rounded-full border-2 border-black bg-transparent px-7 py-3 text-base font-bold text-black hover:bg-[#FE330A] hover:text-white hover:border-[#FE330A] transition-colors duration-700  animate__animated wow animate__fadeIn"
-              >
-                Learn more
+              <button type="button"
+                class="hidden md:inline-flex items-center justify-center rounded-full bg-black px-7 py-3 text-base font-bold text-white hover:bg-[#FE330A] transition-colors duration-700">
+                Sign up free
+              </button>
+
+              <button data-collapse-toggle="navbar-cta" type="button"
+                class="inline-flex md:hidden items-center justify-center h-10 w-10 rounded-lg text-gray-700 hover:bg-black/5 focus:outline-none focus:ring-2 focus:ring-black/10"
+                aria-controls="navbar-cta" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" viewBox="0 0 17 14" fill="none">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
               </button>
             </div>
           </div>
+        </nav>
+      </div>
+    </header>
+    <section class="relative overflow-hidden">
+      <!-- ORANGE BLUR (vệt mờ màu cam bên phải) -->
+      <div class=" bg-[#FC6733] absolute -right-[150px] top-[270px] z-[1] h-[500px] w-[500px] rounded-[500px] blur-2xl">
+      </div>
+      <div class=" bg-[#FF7825] absolute -right-[10px] top-[500px] z-[1] h-[500px] w-[500px] rounded-[500px] blur-2xl">
+      </div>
 
-          <div class="overflow-hidden rounded-2xl animate__animated wow animate__zoomIn">
-            <img
-              src="./img/hero-dashboard.jpg"
-              alt="dashboard"
-              width="1296"
-              height="640"
-              class="h-auto w-full"
-            />
+      <div class="container relative z-10">
+        <div class="mx-auto max-w-6xl px-6 py-16 md:py-24 text-center">
+          <h1
+            class="font-bold leading-[0.95] tracking-tight text-black text-[120px] animate__animated animate__fadeInUp wow">
+            Simplify your SaaS <br class="hidden md:block" />
+            solution with AI
+          </h1>
+
+          <p
+            class="mx-auto mt-6 text-black/80 text-[20px] font-semibold leading-relaxed  animate__animated animate__fadeInUp wow">
+            Our AI SAAS tool is a cloud-based software delivery model. It
+            helps businesses forecast demand for <br />
+            products and services and optimize inventory management and supply
+            chain operations.
+          </p>
+
+          <div class="mt-10 flex flex-wrap justify-center gap-4">
+            <button type="button"
+              class="hidden md:inline-flex items-center justify-center rounded-full bg-black px-7 py-3 text-base font-bold text-white hover:bg-[#FE330A] transition-colors duration-700 animate__animated wow animate__fadeIn">
+              Get started for free
+            </button>
+
+            <button type="button"
+              class="hidden md:inline-flex items-center justify-center rounded-full border-2 border-black bg-transparent px-7 py-3 text-base font-bold text-black hover:bg-[#FE330A] hover:text-white hover:border-[#FE330A] transition-colors duration-700  animate__animated wow animate__fadeIn">
+              Learn more
+            </button>
           </div>
+        </div>
 
-          <div>
-            <hr class="my-20 text-[14px] w-full opacity-10 lengt" size="1px" />
-          </div>
+        <div class="overflow-hidden rounded-2xl animate__animated wow animate__zoomIn">
+          <img src="./img/hero-dashboard.jpg" alt="dashboard" width="1296" height="640" class="h-auto w-full" />
+        </div>
 
-          <div class="text-center my-15 animate__animated animate__fadeInUp wow">
-            <p class="text-[18px]">
-              Companies of all sizes trust us to find AI SaaS critical to their
-              growth and innovation
-            </p>
-          </div>
+        <div>
+          <hr class="my-20 text-[14px] w-full opacity-10 lengt" size="1px" />
+        </div>
 
-          <!-- Slider -->
-          <div class="mx-auto max-w-6xl px-6 py-10 animate__animated animate__fadeInUp wow">
-            <div class="overflow-hidden">
-              <div class="swiper brand-slider w-full">
-                <div class="swiper-wrapper !ease-linear items-center">
-                  <div class="swiper-slide flex items-center justify-center">
-                    <img
-                      src="./img/brand-1.png"
-                      class="h-8 w-auto object-contain"
-                      alt=""
-                    />
-                  </div>
+        <div class="text-center my-15 animate__animated animate__fadeInUp wow">
+          <p class="text-[18px]">
+            Companies of all sizes trust us to find AI SaaS critical to their
+            growth and innovation
+          </p>
+        </div>
 
-                  <div class="swiper-slide flex items-center justify-center">
-                    <img
-                      src="./img/brand-2.png"
-                      class="h-8 w-auto object-contain"
-                      alt=""
-                    />
-                  </div>
+        <!-- Slider -->
+        <div class="mx-auto max-w-6xl px-6 py-10 animate__animated animate__fadeInUp wow">
+          <div class="overflow-hidden">
+            <div class="swiper brand-slider w-full">
+              <div class="swiper-wrapper !ease-linear items-center">
+                <div class="swiper-slide flex items-center justify-center">
+                  <img src="./img/brand-1.png" class="h-8 w-auto object-contain" alt="" />
+                </div>
 
-                  <div class="swiper-slide flex items-center justify-center">
-                    <img
-                      src="./img/brand-3.png"
-                      class="h-8 w-auto object-contain"
-                      alt=""
-                    />
-                  </div>
+                <div class="swiper-slide flex items-center justify-center">
+                  <img src="./img/brand-2.png" class="h-8 w-auto object-contain" alt="" />
+                </div>
 
-                  <div class="swiper-slide flex items-center justify-center">
-                    <img
-                      src="./img/brand-4.png"
-                      class="h-8 w-auto object-contain"
-                      alt=""
-                    />
-                  </div>
+                <div class="swiper-slide flex items-center justify-center">
+                  <img src="./img/brand-3.png" class="h-8 w-auto object-contain" alt="" />
+                </div>
 
-                  <div class="swiper-slide flex items-center justify-center">
-                    <img
-                      src="./img/brand-5.png"
-                      class="h-8 w-auto object-contain"
-                      alt=""
-                    />
-                  </div>
+                <div class="swiper-slide flex items-center justify-center">
+                  <img src="./img/brand-4.png" class="h-8 w-auto object-contain" alt="" />
+                </div>
 
-                  <!-- duplicate -->
-                  <div class="swiper-slide flex items-center justify-center">
-                    <img
-                      src="./img/brand-1.png"
-                      class="h-8 w-auto object-contain"
-                      alt=""
-                    />
-                  </div>
-                  <div class="swiper-slide flex items-center justify-center">
-                    <img
-                      src="./img/brand-2.png"
-                      class="h-8 w-auto object-contain"
-                      alt=""
-                    />
-                  </div>
-                  <div class="swiper-slide flex items-center justify-center">
-                    <img
-                      src="./img/brand-3.png"
-                      class="h-8 w-auto object-contain"
-                      alt=""
-                    />
-                  </div>
-                  <div class="swiper-slide flex items-center justify-center">
-                    <img
-                      src="./img/brand-4.png"
-                      class="h-8 w-auto object-contain"
-                      alt=""
-                    />
-                  </div>
-                  <div class="swiper-slide flex items-center justify-center">
-                    <img
-                      src="./img/brand-5.png"
-                      class="h-8 w-auto object-contain"
-                      alt=""
-                    />
-                  </div>
+                <div class="swiper-slide flex items-center justify-center">
+                  <img src="./img/brand-5.png" class="h-8 w-auto object-contain" alt="" />
+                </div>
+
+                <!-- duplicate -->
+                <div class="swiper-slide flex items-center justify-center">
+                  <img src="./img/brand-1.png" class="h-8 w-auto object-contain" alt="" />
+                </div>
+                <div class="swiper-slide flex items-center justify-center">
+                  <img src="./img/brand-2.png" class="h-8 w-auto object-contain" alt="" />
+                </div>
+                <div class="swiper-slide flex items-center justify-center">
+                  <img src="./img/brand-3.png" class="h-8 w-auto object-contain" alt="" />
+                </div>
+                <div class="swiper-slide flex items-center justify-center">
+                  <img src="./img/brand-4.png" class="h-8 w-auto object-contain" alt="" />
+                </div>
+                <div class="swiper-slide flex items-center justify-center">
+                  <img src="./img/brand-5.png" class="h-8 w-auto object-contain" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    <section class="container pt-25">
-      <h1 class="text-[80px] font-bold leading-[1.05] pb-10 animate__animated animate__fadeInUp wow">
-        Core features that <br />make it valuable
-      </h1>
-
-      <!-- Feature table (NO ellipsis, NO wrap) -->
-      <div class="mt-10 overflow-hidden rounded-2xl border-2 border-black animate__animated animate__fadeInUp wow">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          <!-- Item 1 -->
-          <a
-            href="#"
-            class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black border-b border-black md:border-r lg:border-b-0"
-          >
-            <div class="relative mb-8 h-14 w-14">
-              <img
-                src="./img/service-icon-black-1.svg"
-                alt=""
-                class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0"
-              />
-              <img
-                src="./img/service-icon-orange-1.svg"
-                alt=""
-                class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-              />
-            </div>
-
-            <h3
-              class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]"
-            >
-              Resource Flexibility
-            </h3>
-
-            <p
-              class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white"
-            >
-              This is an excellent option for people &amp; small businesses who
-              are starting out.
-            </p>
-
-            <div class="mt-auto pt-10">
-              <span
-                class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]"
-              >
-                →
-              </span>
-            </div>
-          </a>
-
-          <!-- Item 2 -->
-          <a
-            href="#"
-            class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black border-b border-black lg:border-r lg:border-b-0"
-          >
-            <div class="relative mb-8 h-14 w-14">
-              <img
-                src="./img/service-icon-black-2.svg"
-                alt=""
-                class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0"
-              />
-              <img
-                src="./img/service-icon-orange-2.svg"
-                alt=""
-                class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-              />
-            </div>
-
-            <h3
-              class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]"
-            >
-              Managed Services
-            </h3>
-
-            <p
-              class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white"
-            >
-              This is an excellent option for people &amp; small businesses who
-              are starting out.
-            </p>
-
-            <div class="mt-auto pt-10">
-              <span
-                class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]"
-              >
-                →
-              </span>
-            </div>
-          </a>
-
-          <!-- Item 3 -->
-          <a
-            href="#"
-            class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black border-b border-black md:border-b-0 md:border-r lg:border-r"
-          >
-            <div class="relative mb-8 h-14 w-14">
-              <img
-                src="./img/service-icon-black-3.svg"
-                alt=""
-                class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0"
-              />
-              <img
-                src="./img/service-icon-orange-3.svg"
-                alt=""
-                class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-              />
-            </div>
-
-            <h3
-              class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]"
-            >
-              Web-Based Access
-            </h3>
-
-            <p
-              class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white"
-            >
-              This is an excellent option for people &amp; small businesses who
-              are starting out.
-            </p>
-
-            <div class="mt-auto pt-10">
-              <span
-                class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]"
-              >
-                →
-              </span>
-            </div>
-          </a>
-
-          <!-- Item 4 -->
-          <a
-            href="#"
-            class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black"
-          >
-            <div class="relative mb-8 h-14 w-14">
-              <img
-                src="./img/service-icon-black-4.svg"
-                alt=""
-                class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0"
-              />
-              <img
-                src="./img/service-icon-orange-4.svg"
-                alt=""
-                class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-              />
-            </div>
-
-            <h3
-              class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]"
-            >
-              Resource Flexibility
-            </h3>
-
-            <p
-              class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white"
-            >
-              This is an excellent option for people &amp; small businesses who
-              are starting out.
-            </p>
-
-            <div class="mt-auto pt-10">
-              <span
-                class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]"
-              >
-                →
-              </span>
-            </div>
-          </a>
-        </div>
       </div>
     </section>
+  </div>
+  <section class="container pt-25">
+    <h1 class="text-[80px] font-bold leading-[1.05] pb-10 animate__animated animate__fadeInUp wow">
+      Core features that <br />make it valuable
+    </h1>
 
-    <section
-      class="mt-24 grid items-center gap-80 lg:grid-cols-2 lg:gap-16 container"
-    >
-      <!-- Left image -->
-      <div>
-        <div
-          class="overflow-hidden rounded-2xl bg-[#111] shadow-2xl ring-1 ring-black/10 mr-15
-          animate__animated animate__fadeInLeft wow "
-        >
-          <!-- Thay src bằng ảnh của bạn -->
-          <img
-            src="./img/content-image-1.jpg"
-            alt="Analytics chart"
-            class="h-auto w-full object-cover"
-          />
-        </div>
-      </div>
+    <!-- Feature table (NO ellipsis, NO wrap) -->
+    <div class="mt-10 overflow-hidden rounded-2xl border-2 border-black animate__animated animate__fadeInUp wow">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <!-- Item 1 -->
+        <a href="#"
+          class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black border-b border-black md:border-r lg:border-b-0">
+          <div class="relative mb-8 h-14 w-14">
+            <img src="./img/service-icon-black-1.svg" alt=""
+              class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0" />
+            <img src="./img/service-icon-orange-1.svg" alt=""
+              class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+          </div>
 
-      <!-- Right content -->
-      <div class="animate__animated animate__fadeInRight wow">
-        <h2
-          class="font-bold tracking-tight text-black text-[80px] leading-[1.05]"
-        >
-          Accessible to a <br />wider audience
-        </h2>
+          <h3
+            class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]">
+            Resource Flexibility
+          </h3>
 
-        <p class="mt-8 text-[21px] leading-relaxed text-black/80">
-          Advanced AI capabilities accessible to a broader audience, <br />
-          including small & medium-sized businesses and individuals <br />
-          who may not have the resources or expertise to develop.
-        </p>
-
-        <p class="mt-6 text-[21px] leading-relaxed text-black/80">
-          Advanced AI capabilities accessible to a broader audience, including
-          small & medium-sized businesses and individuals <br />
-          who may not have the resources or expertise to develop.
-        </p>
-      </div>
-    </section>
-    <section class="container pb-40">
-      <!-- NEXT BLOCK: Providing quick deploy solutions -->
-      <div class="mt-24 grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-        <!-- Left content -->
-        <div class="animate__animated animate__fadeInRight wow">
-          <h2
-            class="font-bold tracking-tight text-black text-5xl md:text-6xl lg:text-7xl leading-[1.05] "
-          >
-            Providing quick <br />
-            deploy solutions
-          </h2>
-
-          <p class="mt-8 text-[18px] leading-relaxed text-black/80 max-w-xl">
-            Our AI SaaS solutions can be quickly deployed, enabling users to
-            start benefiting from AI capabilities without lengthy setup and
-            development times in fast-paced industries.
+          <p
+            class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white">
+            This is an excellent option for people &amp; small businesses who
+            are starting out.
           </p>
 
-          <!-- Tick list -->
-          <ul class="mt-10 space-y-6">
-            <li class="flex items-center gap-4">
-              <!-- Tick icon (thay src ảnh tick của bạn) -->
-              <span class="shrink-0 h-7 w-7">
-                <img
-                  src="./img/check-circle.svg"
-                  alt=""
-                  class="h-full w-full object-contain"
-                />
-              </span>
-              <span class="text-[22px] md:text-[24px] font-bold text-black">
-                Ready-to-use AI capabilities system
-              </span>
-            </li>
+          <div class="mt-auto pt-10">
+            <span class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]">
+              →
+            </span>
+          </div>
+        </a>
 
-            <li class="flex items-center gap-4">
-              <span class="shrink-0 h-7 w-7">
-                <img
-                  src="./img/check-circle.svg"
-                  alt=""
-                  class="h-full w-full object-contain"
-                />
-              </span>
-              <span class="text-[22px] md:text-[24px] font-bold text-black">
-                Users can quickly integrate AI features
-              </span>
-            </li>
+        <!-- Item 2 -->
+        <a href="#"
+          class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black border-b border-black lg:border-r lg:border-b-0">
+          <div class="relative mb-8 h-14 w-14">
+            <img src="./img/service-icon-black-2.svg" alt=""
+              class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0" />
+            <img src="./img/service-icon-orange-2.svg" alt=""
+              class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+          </div>
 
-            <li class="flex items-center gap-4 ">
-              <span class="shrink-0 h-7 w-7">
-                <img
-                  src="./img/check-circle.svg"
-                  alt=""
-                  class="h-full w-full object-contain"
-                />
-              </span>
-              <span class="text-[22px] md:text-[24px] font-bold text-black">
-                Time savings translate to cost savings
-              </span>
+          <h3
+            class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]">
+            Managed Services
+          </h3>
+
+          <p
+            class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white">
+            This is an excellent option for people &amp; small businesses who
+            are starting out.
+          </p>
+
+          <div class="mt-auto pt-10">
+            <span class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]">
+              →
+            </span>
+          </div>
+        </a>
+
+        <!-- Item 3 -->
+        <a href="#"
+          class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black border-b border-black md:border-b-0 md:border-r lg:border-r">
+          <div class="relative mb-8 h-14 w-14">
+            <img src="./img/service-icon-black-3.svg" alt=""
+              class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0" />
+            <img src="./img/service-icon-orange-3.svg" alt=""
+              class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+          </div>
+
+          <h3
+            class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]">
+            Web-Based Access
+          </h3>
+
+          <p
+            class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white">
+            This is an excellent option for people &amp; small businesses who
+            are starting out.
+          </p>
+
+          <div class="mt-auto pt-10">
+            <span class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]">
+              →
+            </span>
+          </div>
+        </a>
+
+        <!-- Item 4 -->
+        <a href="#"
+          class="group flex min-h-80 flex-col bg-white p-8 xl:p-10 transition-colors duration-300 hover:bg-black">
+          <div class="relative mb-8 h-14 w-14">
+            <img src="./img/service-icon-black-4.svg" alt=""
+              class="absolute inset-0 h-full w-full object-contain opacity-100 transition-opacity duration-300 group-hover:opacity-0" />
+            <img src="./img/service-icon-orange-4.svg" alt=""
+              class="absolute inset-0 h-full w-full object-contain opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+          </div>
+
+          <h3
+            class="whitespace-nowrap text-[24px] xl:text-[28px] font-bold text-black transition-colors duration-300 group-hover:text-white group-hover:hover:text-[#FE330A]">
+            Resource Flexibility
+          </h3>
+
+          <p
+            class="mt-4 text-[18px] leading-relaxed text-black/80 transition-colors duration-300 group-hover:text-white">
+            This is an excellent option for people &amp; small businesses who
+            are starting out.
+          </p>
+
+          <div class="mt-auto pt-10">
+            <span class="text-2xl leading-none text-black transition-colors duration-300 group-hover:text-[#FE330A]">
+              →
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-24 grid items-center gap-80 lg:grid-cols-2 lg:gap-16 container">
+    <!-- Left image -->
+    <div>
+      <div class="overflow-hidden rounded-2xl bg-[#111] shadow-2xl ring-1 ring-black/10 mr-15
+          animate__animated animate__fadeInLeft wow ">
+        <!-- Thay src bằng ảnh của bạn -->
+        <img src="./img/content-image-1.jpg" alt="Analytics chart" class="h-auto w-full object-cover" />
+      </div>
+    </div>
+
+    <!-- Right content -->
+    <div class="animate__animated animate__fadeInRight wow">
+      <h2 class="font-bold tracking-tight text-black text-[80px] leading-[1.05]">
+        Accessible to a <br />wider audience
+      </h2>
+
+      <p class="mt-8 text-[21px] leading-relaxed text-black/80">
+        Advanced AI capabilities accessible to a broader audience, <br />
+        including small & medium-sized businesses and individuals <br />
+        who may not have the resources or expertise to develop.
+      </p>
+
+      <p class="mt-6 text-[21px] leading-relaxed text-black/80">
+        Advanced AI capabilities accessible to a broader audience, including
+        small & medium-sized businesses and individuals <br />
+        who may not have the resources or expertise to develop.
+      </p>
+    </div>
+  </section>
+  <section class="container pb-40">
+    <!-- NEXT BLOCK: Providing quick deploy solutions -->
+    <div class="mt-24 grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+      <!-- Left content -->
+      <div class="animate__animated animate__fadeInRight wow">
+        <h2 class="font-bold tracking-tight text-black text-5xl md:text-6xl lg:text-7xl leading-[1.05] ">
+          Providing quick <br />
+          deploy solutions
+        </h2>
+
+        <p class="mt-8 text-[18px] leading-relaxed text-black/80 max-w-xl">
+          Our AI SaaS solutions can be quickly deployed, enabling users to
+          start benefiting from AI capabilities without lengthy setup and
+          development times in fast-paced industries.
+        </p>
+
+        <!-- Tick list -->
+        <ul class="mt-10 space-y-6">
+          <li class="flex items-center gap-4">
+            <!-- Tick icon (thay src ảnh tick của bạn) -->
+            <span class="shrink-0 h-7 w-7">
+              <img src="./img/check-circle.svg" alt="" class="h-full w-full object-contain" />
+            </span>
+            <span class="text-[22px] md:text-[24px] font-bold text-black">
+              Ready-to-use AI capabilities system
+            </span>
+          </li>
+
+          <li class="flex items-center gap-4">
+            <span class="shrink-0 h-7 w-7">
+              <img src="./img/check-circle.svg" alt="" class="h-full w-full object-contain" />
+            </span>
+            <span class="text-[22px] md:text-[24px] font-bold text-black">
+              Users can quickly integrate AI features
+            </span>
+          </li>
+
+          <li class="flex items-center gap-4 ">
+            <span class="shrink-0 h-7 w-7">
+              <img src="./img/check-circle.svg" alt="" class="h-full w-full object-contain" />
+            </span>
+            <span class="text-[22px] md:text-[24px] font-bold text-black">
+              Time savings translate to cost savings
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right image -->
+      <div>
+        <div
+          class="overflow-hidden rounded-2xl bg-[#111] shadow-2xl ring-1 ring-black/10 animate__animated animate__fadeInLeft wow">
+          <!-- Thay src bằng ảnh dashboard của bạn -->
+          <img src="./img/content-image-2.jpg" alt="Traffic by location" class="h-auto w-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- funfact -->
+  <section id="funfact-section" class="py-20 lg:py-24">
+    <div class="mx-auto max-w-[1500px] px-5">
+      <div
+        class="grid grid-cols-1 overflow-hidden rounded-[30px] bg-black lg:rounded-[50px] xl:grid-cols-[minmax(400px,_1fr)_1.5fr] xxl:grid-cols-[1fr_minmax(800px,_1fr)] wow animate__animated animate__fadeInUp">
+
+        <div class="relative overflow-hidden rounded-[30px] lg:rounded-[50px]">
+          <img src="./img/funfact-image.jpg" alt="funfact-image"
+            class="h-80 w-full object-cover object-center lg:h-[35rem] xl:h-full">
+          <a href="https://www.youtube.com/watch?v=3nQNiWdeH2Q" target="_blank"
+            class="absolute left-1/2 top-1/2 z-[1] -translate-x-1/2 -translate-y-1/2">
+            <div
+              class="relative flex h-[120px] w-[120px] items-center justify-center rounded-full border-[3px] border-black text-lg font-bold text-white backdrop-blur-[2px] transition-all duration-300 hover:bg-colorOrangyRed">
+              Play
+              <div class="absolute -z-[1] h-[110%] w-[110%] animate-ping rounded-full bg-gray-600 opacity-30"></div>
+            </div>
+          </a>
+        </div>
+
+        <div class="self-center px-6 py-16 sm:py-20 md:px-16 xl:px-10 xl:py-24 xxl:py-32 xxl:pl-16 xxl:pr-28">
+          <div class="mb-8">
+            <h2 class="text-white text-4xl md:text-6xl font-bold">AI-powered that streamline tasks</h2>
+          </div>
+          <div class="text-left text-lg leading-relaxed text-white lg:text-[21px]">
+            <p class="mb-7">As your business grows or your AI SaaS needs change, you can easily adjust your subscription
+              level to match those needs.</p>
+          </div>
+
+          <div class="my-14 h-[1px] w-full bg-colorCodGray"></div>
+
+          <ul
+            class="flex flex-col justify-center gap-x-11 gap-y-8 text-center sm:flex-row md:text-left xl:justify-normal">
+            <li>
+              <h3 class="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xxl:text-[100px] font-bold">
+                <span class="count-up" data-target="92">0</span>%
+              </h3>
+              <span class="block text-lg font-normal text-white lg:text-[21px]">Customer service inquiries</span>
+            </li>
+            <li>
+              <h3 class="text-5xl text-colorOrangyRed md:text-6xl lg:text-7xl xxl:text-[100px] font-bold">
+                <span class="count-up" data-target="75">0</span>%
+              </h3>
+              <span class="block text-lg font-normal text-white lg:text-[21px]">Using financial institutions</span>
             </li>
           </ul>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Right image -->
-        <div>
+  <!-- pricing -->
+  <section class="pricing-section py-20 lg:py-[100px] xl:py-[130px] bg-white">
+    <div class="mx-auto max-w-[1500px] px-5">
+      <div class="mb-10 text-center lg:mb-12 wow animate__animated animate__fadeInUp">
+        <div class="mx-auto max-w-[746px]">
+          <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold">Cost-effectively build any software</h2>
+        </div>
+      </div>
+
+      <div class="flex justify-center mb-16 wow animate__animated animate__fadeIn">
+        <div class="inline-flex space-x-4 rounded-[50px] border-2 border-black font-semibold p-1">
+          <button class="price-button active" data-tab="monthly-list">Monthly</button>
+          <button class="price-button" data-tab="annually-list">Annually</button>
+        </div>
+      </div>
+
+      <div class="mt-12">
+        <ul id="monthly-list" class="tab-content grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <li
+            class="group flex flex-col rounded-[30px] bg-[#F7F1E9] p-10 transition-all duration-300 hover:bg-black wow animate__animated animate__fadeInUp">
+            <h3 class="text-[28px] font-bold text-black group-hover:text-white transition-colors">Beginner</h3>
+            <span class="text-lg text-black group-hover:text-white transition-colors">Up to 10 members</span>
+            <div class="my-8 h-[1px] w-full bg-[#DBD6CF] group-hover:bg-colorCodGray transition-colors"></div>
+            <h4 class="mb-6 text-5xl lg:text-7xl font-bold text-black group-hover:text-white">$25<span
+                class="text-lg font-semibold">/Per month</span></h4>
+            <p class="mb-10 text-lg text-black group-hover:text-white transition-colors flex-grow">This is an excellent
+              option for people & small businesses who are starting out.</p>
+            <a class="mt-auto block rounded-[50px] border-2 border-black py-4 text-center font-bold text-black group-hover:bg-colorOrangyRed group-hover:border-colorOrangyRed group-hover:text-white transition-all duration-300"
+              href="#">Choose the plan</a>
+          </li>
+
+          <li
+            class="group flex flex-col rounded-[30px] bg-[#F7F1E9] p-10 transition-all duration-300 hover:bg-black wow animate__animated animate__fadeInUp"
+            data-wow-delay="0.1s">
+            <h3 class="text-[28px] font-bold text-black group-hover:text-white transition-colors">Starter</h3>
+            <span class="text-lg text-black group-hover:text-white transition-colors">Up to 50 members</span>
+
+            <div class="my-8 h-[1px] w-full bg-[#DBD6CF] group-hover:bg-colorCodGray transition-colors"></div>
+
+            <h4 class="mb-6 text-5xl lg:text-7xl font-bold text-black group-hover:text-white">
+              $89<span class="text-lg font-semibold">/Per month</span>
+            </h4>
+
+            <p class="mb-10 text-lg text-black group-hover:text-white transition-colors flex-grow">
+              This plan is suitable for e-commerce stores as well as professional blogs.
+            </p>
+
+            <a class="mt-auto block rounded-[50px] border-2 border-black py-4 text-center font-bold text-black group-hover:bg-colorOrangyRed group-hover:border-colorOrangyRed group-hover:text-white transition-all duration-300"
+              href="#">
+              Choose the plan
+            </a>
+          </li>
+
+          <li
+            class="group flex flex-col rounded-[30px] bg-[#F7F1E9] p-10 transition-all duration-300 hover:bg-black wow animate__animated animate__fadeInUp"
+            data-wow-delay="0.2s">
+            <h3 class="text-[28px] font-bold text-black group-hover:text-white transition-colors">Pro</h3>
+            <span class="text-lg text-black group-hover:text-white transition-colors">Up to 100 members</span>
+            <div class="my-8 h-[1px] w-full bg-[#DBD6CF] group-hover:bg-colorCodGray"></div>
+            <h4 class="mb-6 text-5xl lg:text-7xl font-bold text-black group-hover:text-white">$199<span
+                class="text-lg font-semibold">/Per month</span></h4>
+            <p class="mb-10 text-lg text-black group-hover:text-white transition-colors flex-grow">Ideal for handling
+              complicated enterprise-level projects and websites.</p>
+            <a class="mt-auto block rounded-[50px] border-2 border-black py-4 text-center font-bold text-black group-hover:bg-colorOrangyRed group-hover:border-colorOrangyRed group-hover:text-white transition-all duration-300"
+              href="#">Choose the plan</a>
+          </li>
+        </ul>
+
+        <ul id="annually-list" class="tab-content hidden grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <li class="group flex flex-col rounded-[30px] bg-[#F7F1E9] p-10 transition-all duration-300 hover:bg-black">
+            <h3 class="text-[28px] font-bold text-black group-hover:text-white transition-colors">Beginner</h3>
+            <span class="text-lg text-black group-hover:text-white transition-colors">Up to 100 members</span>
+            <h4 class="mb-6 text-5xl lg:text-7xl font-bold text-black group-hover:text-white">$240<span
+                class="text-lg font-semibold">/Per year</span></h4>
+            <p class="mb-10 text-lg text-black group-hover:text-white transition-colors flex-grow">This is an excellent
+              option for people & small businesses who are starting out.</p>
+            <a class="mt-auto block rounded-[50px] border-2 border-black py-4 text-center font-bold group-hover:bg-colorOrangyRed group-hover:text-white transition-all"
+              href="#">Choose the plan</a>
+          </li>
+          <li class="group flex flex-col rounded-[30px] bg-[#F7F1E9] p-10 transition-all duration-300 hover:bg-black">
+            <h3 class="text-[28px] font-bold text-black group-hover:text-white transition-colors">Starter</h3>
+            <span class="text-lg text-black group-hover:text-white transition-colors">Up to 50 members</span>
+            <h4 class="mb-6 text-5xl lg:text-7xl font-bold text-black group-hover:text-white">$960<span
+                class="text-lg font-semibold">/Per year</span></h4>
+            <p class="mb-10 text-lg text-black group-hover:text-white transition-colors flex-grow">This plan is suitable
+              for e-commerce stores as well as professional blogs.</p>
+            <a class="mt-auto block rounded-[50px] border-2 border-black py-4 text-center font-bold group-hover:bg-colorOrangyRed group-hover:text-white transition-all"
+              href="#">Choose the plan</a>
+          </li>
+          <li class="group flex flex-col rounded-[30px] bg-[#F7F1E9] p-10 transition-all duration-300 hover:bg-black">
+            <h3 class="text-[28px] font-bold text-black group-hover:text-white transition-colors">Pro</h3>
+            <span class="text-lg text-black group-hover:text-white transition-colors">Up to 100 members</span>
+            <h4 class="mb-6 text-5xl lg:text-7xl font-bold text-black group-hover:text-white">$1800<span
+                class="text-lg font-semibold">/Per year</span></h4>
+            <p class="mb-10 text-lg text-black group-hover:text-white transition-colors flex-grow">This is an excellent
+              option for people & small businesses who are starting out.</p>
+            <a class="mt-auto block rounded-[50px] border-2 border-black py-4 text-center font-bold group-hover:bg-colorOrangyRed group-hover:text-white transition-all"
+              href="#">Choose the plan</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- faq-section -->
+  <section class="faq-section bg-white">
+    <div class="pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]">
+      <div class="global-container mx-auto px-5">
+        <div class="grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:gap-x-20 xl:gap-x-32">
+
+          <div class="flex flex-col wow animate__animated animate__fadeInLeft">
+            <div class="mb-6">
+              <div class="mx-auto md:mx-0">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">Freely ask us for more information
+                </h2>
+              </div>
+            </div>
+            <div class="text-lg leading-[1.4] lg:text-[21px] text-gray-600">
+              <p class="mb-7">
+                Our AI SaaS solutions can be quickly deployed, enabling users to start benefiting from AI capabilities
+                without lengthy setup and development times in fast-paced industries.
+              </p>
+              <a class="inline-block rounded-[50px] border-2 border-black bg-black px-10 py-4 text-white transition-all duration-300 hover:bg-colorOrangyRed hover:border-colorOrangyRed"
+                href="#">
+                Ask your questions
+              </a>
+            </div>
+          </div>
+
+          <div class="wow animate__animated animate__fadeInRight">
+            <ul class="accordion-list">
+              <li class="accordion-item active border-b-[1px] border-[#DBD6CF] pb-6 pt-6 first:pt-0">
+                <button
+                  class="accordion-header flex w-full items-center justify-between font-dmSans text-xl font-bold leading-[1.2] text-black lg:text-[28px]">
+                  <span>How do I start AI SaaS?</span>
+                  <div
+                    class="accordion-icon relative flex h-8 w-8 items-center justify-center transition-all duration-300">
+                    <span class="absolute h-0.5 w-5 bg-black"></span>
+                    <span class="v-line absolute h-5 w-0.5 bg-black transition-all duration-300"></span>
+                  </div>
+                </button>
+                <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                  <p class="pt-5 text-lg text-[#2C2C2C]">
+                    Go to the our official website and require users to create an account. You'll need to provide some
+                    basic information and agree to our terms and conditions.
+                  </p>
+                </div>
+              </li>
+
+              <li class="accordion-item border-b-[1px] border-[#DBD6CF] pb-6 pt-6">
+                <button
+                  class="accordion-header flex w-full items-center justify-between font-dmSans text-xl font-bold leading-[1.2] text-black lg:text-[28px]">
+                  <span>Can I customize AI SaaS solutions?</span>
+                  <div
+                    class="accordion-icon relative flex h-8 w-8 items-center justify-center transition-all duration-300">
+                    <span class="absolute h-0.5 w-5 bg-black"></span>
+                    <span class="v-line absolute h-5 w-0.5 bg-black transition-all duration-300"></span>
+                  </div>
+                </button>
+                <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                  <p class="pt-5 text-lg text-[#2C2C2C]">
+                    Go to the our official website and require users to create an account. You'll need to provide some
+                    basic information and agree to our terms and conditions.
+                  </p>
+                </div>
+              </li>
+
+              <li class="accordion-item border-b-[1px] border-[#DBD6CF] pb-6 pt-6">
+                <button
+                  class="accordion-header flex w-full items-center justify-between font-dmSans text-xl font-bold leading-[1.2] text-black lg:text-[28px]">
+                  <span>How can AI benefit my business?</span>
+                  <div
+                    class="accordion-icon relative flex h-8 w-8 items-center justify-center transition-all duration-300">
+                    <span class="absolute h-0.5 w-5 bg-black"></span>
+                    <span class="v-line absolute h-5 w-0.5 bg-black transition-all duration-300"></span>
+                  </div>
+                </button>
+                <div class="accordion-content max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
+                  <p class="pt-5 text-lg text-[#2C2C2C]">
+                    Go to the our official website and require users to create an account. You'll need to provide some
+                    basic information and agree to our terms and conditions.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- danh gia -->
+  <section class="testimonial-section bg-white">
+    <div class="bg-black pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]">
+      <div class="global-container mx-auto px-5">
+
+        <div class="mb-10 text-center lg:mb-16 wow animate__animated animate__fadeInUp">
+          <div class="mx-auto max-w-[680px]">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white">Positive feedback from our users</h2>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+          <div class="wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-card flex h-full flex-col rounded-[30px] bg-black p-8 lg:p-10 text-white">
+              <div class="mb-8">
+                <img src="/BC95-AZZLE/src/img/rating.svg" alt="rating" width="146">
+              </div>
+              <div class="flex-grow">
+                <p class="text-lg lg:text-[21px] leading-[1.5] font-medium">
+                  “This AI SaaS tool has revolutionized the way we process and analyze data. This is a game-changer for
+                  our business.”
+                </p>
+              </div>
+              <div class="mt-10 flex items-center gap-x-4">
+                <div class="h-[64px] w-[64px] overflow-hidden rounded-full">
+                  <img src="/BC95-AZZLE/src/img/testimonial-img-1.jpg" alt="user"
+                    class="h-full w-full rounded-full object-cover">
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xl font-bold">Max Weber</span>
+                  <span class="text-sm font-light text-gray-400">HR Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-card flex h-full flex-col rounded-[30px] bg-black p-8 lg:p-10 text-white">
+              <div class="mb-8">
+                <img src="/BC95-AZZLE/src/img/rating.svg" alt="rating" width="146">
+              </div>
+              <div class="flex-grow">
+                <p class="text-lg lg:text-[21px] leading-[1.5] font-medium">
+                  "It answers immediately, and we've seen a significant reduction in response time. Our customers love
+                  it and so do we!"
+                </p>
+              </div>
+              <div class="mt-10 flex items-center gap-x-4">
+                <div class="h-[64px] w-[64px] overflow-hidden rounded-full">
+                  <img src="/BC95-AZZLE/src/img/testimonial-img-2.jpg" alt="user"
+                    class="h-full w-full rounded-full object-cover">
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xl font-bold">Douglas Smith</span>
+                  <span class="text-sm font-light text-gray-400">Businessman</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-card flex h-full flex-col rounded-[30px] bg-black p-8 lg:p-10 text-white">
+              <div class="mb-8">
+                <img src="/BC95-AZZLE/src/img/rating.svg" alt="rating" width="146">
+              </div>
+              <div class="flex-grow">
+                <p class="text-lg lg:text-[21px] leading-[1.5] font-medium">
+                  "It is accurate, fast and supports multiple languages support. It is a must for any international
+                  business success."
+                </p>
+              </div>
+              <div class="mt-10 flex items-center gap-x-4">
+                <div class="h-[64px] w-[64px] overflow-hidden rounded-full">
+                  <img src="/BC95-AZZLE/src/img/testimonial-img-3.jpg" alt="user"
+                    class="h-full w-full rounded-full object-cover">
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xl font-bold">Abraham Maslo</span>
+                  <span class="text-sm font-light text-gray-400">Founder @ Marketing Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-card flex h-full flex-col rounded-[30px] bg-black p-8 lg:p-10 text-white">
+              <div class="mb-8">
+                <img src="/BC95-AZZLE/src/img/rating.svg" alt="rating" width="146">
+              </div>
+              <div class="flex-grow">
+                <p class="text-lg lg:text-[21px] leading-[1.5] font-medium">
+                  "Security is a top concern for us, and AI SaaS takes it seriously. It's a reassuring layer of
+                  protection for our organization."
+                </p>
+              </div>
+              <div class="mt-10 flex items-center gap-x-4">
+                <div class="h-[64px] w-[64px] overflow-hidden rounded-full">
+                  <img src="/BC95-AZZLE/src/img/testimonial-img-4.jpg" alt="user"
+                    class="h-full w-full rounded-full object-cover">
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xl font-bold">Jack Fayol</span>
+                  <span class="text-sm font-light text-gray-400">HR Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-card flex h-full flex-col rounded-[30px] bg-black p-8 lg:p-10 text-white">
+              <div class="mb-8">
+                <img src="/BC95-AZZLE/src/img/rating.svg" alt="rating" width="146">
+              </div>
+              <div class="flex-grow">
+                <p class="text-lg lg:text-[21px] leading-[1.5] font-medium">
+                  "We were concerned about integrating their APIs were well documented, and their support team was super
+                  cool."
+                </p>
+              </div>
+              <div class="mt-10 flex items-center gap-x-4">
+                <div class="h-[64px] w-[64px] overflow-hidden rounded-full">
+                  <img src="/BC95-AZZLE/src/img/testimonial-img-5.jpg" alt="user"
+                    class="h-full w-full rounded-full object-cover">
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xl font-bold">Karen Lynn</span>
+                  <span class="text-sm font-light text-gray-400">Software Engineer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-card flex h-full flex-col rounded-[30px] bg-black p-8 lg:p-10 text-white">
+              <div class="mb-8">
+                <img src="/BC95-AZZLE/src/img/rating.svg" alt="rating" width="146">
+              </div>
+              <div class="flex-grow">
+                <p class="text-lg lg:text-[21px] leading-[1.5] font-medium">
+                  "The return on investment has exceeded our expectations. it's an investment in the future of our
+                  business."
+                </p>
+              </div>
+              <div class="mt-10 flex items-center gap-x-4">
+                <div class="h-[64px] w-[64px] overflow-hidden rounded-full">
+                  <img src="/BC95-AZZLE/src/img/testimonial-img-6.jpg" alt="user"
+                    class="h-full w-full rounded-full object-cover">
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-xl font-bold">Henry Ochi</span>
+                  <span class="text-sm font-light text-gray-400">HR Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer
+    class="relative z-[1] -mt-[70px] overflow-hidden rounded-tl-[30px] rounded-tr-[30px] bg-colorLinenRuffle lg:rounded-tl-[50px] lg:rounded-tr-[50px] border-t border-[#DBD6CF]">
+    <div class="py-[60px] xl:pb-[100px] xl:pt-[130px]">
+      <div class="overflow-hidden">
+        <div class="footer-text-slider flex items-center gap-x-[30px] whitespace-nowrap">
+          <img src="assets/img/th-1/footer-text-slider-icon.svg" alt="icon" width="60" height="60"
+            class="h-10 w-10 lg:h-[60px] lg:w-[60px]">
           <div
-            class="overflow-hidden rounded-2xl bg-[#111] shadow-2xl ring-1 ring-black/10 animate__animated animate__fadeInLeft wow"
-          >
-            <!-- Thay src bằng ảnh dashboard của bạn -->
-            <img
-              src="./img/content-image-2.jpg"
-              alt="Traffic by location"
-              class="h-auto w-full object-cover"
-            />
+            class="font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+            Start building software
+          </div>
+          <img src="img/footer-text-slider-icon.svg" alt="icon" width="60" height="60"
+            class="h-10 w-10 lg:h-[60px] lg:w-[60px]">
+          <div
+            class="font-dmSans text-4xl font-bold leading-none -tracking-[2px] text-black lg:text-6xl xl:text-7xl xxl:text-[80px]">
+            Start building software
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- link script swiper  -->
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        new Swiper(".brand-slider", {
-          loop: true,
-          slidesPerView: 5,
-          spaceBetween: 80,
-          slidesPerGroup: 1,
-          speed: 600,
-          autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          allowTouchMove: true,
-          grabCursor: true,
-          breakpoints: {
-            0: { slidesPerView: 2, spaceBetween: 24 },
-            640: { slidesPerView: 3, spaceBetween: 40 },
-            768: { slidesPerView: 4, spaceBetween: 60 },
-            1024: { slidesPerView: 5, spaceBetween: 80 },
-          },
+    <div class="global-container mx-auto px-5">
+      <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
+
+      <div
+        class="grid grid-cols-1 gap-10 py-[60px] md:grid-cols-[1fr_auto_auto] xl:grid-cols-[1fr_auto_auto_1fr] xl:gap-20 xl:py-[100px]">
+
+        <div class="flex flex-col gap-y-6">
+          <a class="inline-block" href="/"><img src="/BC95-AZZLE/src/img/logo-dark.png" alt="logo" width="96"></a>
+          <p class="text-lg text-gray-700 max-w-[400px]">
+            Our mission is to harness the power of AI to solve complex business challenges & decision-makers with
+            data-driven insights.
+          </p>
+          <p class="font-bold">
+            Website: <a href="#" class="hover:text-colorOrangyRed transition-all">www.example.com</a>
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-y-6">
+          <h4 class="text-[21px] font-bold text-black">Primary Pages</h4>
+          <ul class="flex flex-col gap-y-[10px] capitalize text-gray-600">
+            <li><a class="hover:text-colorOrangyRed transition-all" href="/">Home</a></li>
+            <li><a class="hover:text-colorOrangyRed transition-all" href="/about">About Us</a></li>
+            <li><a class="hover:text-colorOrangyRed transition-all" href="/services">Services</a></li>
+            <li><a class="hover:text-colorOrangyRed transition-all" href="/pricing">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-y-6">
+          <h4 class="text-[21px] font-bold text-black">Utility pages</h4>
+          <ul class="flex flex-col gap-y-[10px] capitalize text-gray-600">
+            <li><a class="hover:text-colorOrangyRed transition-all" href="/signup">Signup</a></li>
+            <li><a class="hover:text-colorOrangyRed transition-all" href="/login">Login</a></li>
+            <li><a class="hover:text-colorOrangyRed transition-all" href="/error-404">404 Not found</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-y-6">
+          <h4 class="text-[21px] font-bold text-black">Subscribe to our newsletter</h4>
+          <form action="#" class="relative h-[60px] max-w-[350px]">
+            <input type="email" placeholder="Enter your email"
+              class="h-full w-full rounded-[50px] border border-black px-[24px] outline-none">
+            <button type="submit"
+              class="absolute right-[5px] top-1/2 -translate-y-1/2 flex h-[50px] w-[50px] items-center justify-center rounded-full bg-black hover:bg-colorOrangyRed transition-all">
+              <img src="img/arrow-right-large.svg" alt="submit">
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="h-[1px] w-full bg-[#DBD6CF]"></div>
+
+      <div class="py-9 text-center">
+        <p>© Copyright 2023, All Rights Reserved by Mthemeus</p>
+      </div>
+    </div>
+
+    <div class="orange-gradient-2 absolute -top-[290px] right-[90px] -z-[1] h-[406px] w-[406px] rounded-full"></div>
+    <div class="orange-gradient-1 absolute -right-[200px] -top-[205px] -z-[1] h-[451px] w-[451px] rounded-full"></div>
+  </footer>
+  <!-- ham funfact chay -->
+  <script>
+    const countUp = () => {
+      const counters = document.querySelectorAll('.count-up');
+      const speed = 100; // Tốc độ càng thấp thì chạy càng nhanh
+
+      counters.forEach(counter => {
+        const updateCount = () => {
+          const target = +counter.getAttribute('data-target');
+          const count = +counter.innerText;
+          const inc = target / speed;
+
+          if (count < target) {
+            counter.innerText = Math.ceil(count + inc);
+            setTimeout(updateCount, 20);
+          } else {
+            counter.innerText = target;
+          }
+        };
+
+        // Sử dụng Intersection Observer để chỉ chạy khi cuộn đến
+        const observer = new IntersectionObserver((entries) => {
+          if (entries[0].isIntersecting) {
+            updateCount();
+            observer.unobserve(counter); // Chỉ chạy 1 lần
+          }
+        }, { threshold: 0.5 });
+
+        observer.observe(counter);
+      });
+    }
+
+    // Chạy hàm khi trang web load xong
+    window.addEventListener('DOMContentLoaded', countUp);
+  </script>
+
+  <!-- ham pricing -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const tabButtons = document.querySelectorAll('.price-button');
+      const tabLists = document.querySelectorAll('.tab-content');
+
+      tabButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // 1. Đổi trạng thái nút bấm
+          tabButtons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          // 2. Ẩn tất cả các danh sách
+          tabLists.forEach(list => list.classList.add('hidden'));
+
+          // 3. Hiện danh sách tương ứng
+          const targetId = btn.getAttribute('data-tab');
+          const targetList = document.getElementById(targetId);
+          if (targetList) {
+            targetList.classList.remove('hidden');
+          }
+
+          // 4. Kích hoạt lại hiệu ứng WOW để Card hiện ra mượt
+          if (typeof WOW !== 'undefined') {
+            new WOW().init();
+          }
         });
       });
-    </script>
-    
-    <!-- wowjs script 
-      -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script>
-      new WOW().init();
-    </script>
+    });
+  </script>
 
-    <!-- link script flowbite -->
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-  </body>
+  <!-- ham faq -->
+  <script>
+    document.querySelectorAll('.accordion-header').forEach(header => {
+      header.addEventListener('click', () => {
+        const item = header.parentElement;
+        const isActive = item.classList.contains('active');
+
+        // Đóng tất cả các item đang mở
+        document.querySelectorAll('.accordion-item').forEach(i => i.classList.remove('active'));
+
+        // Nếu item chưa mở thì mở nó ra
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
+
+
+
+
+  <!-- link script swiper  -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      new Swiper(".brand-slider", {
+        loop: true,
+        slidesPerView: 5,
+        spaceBetween: 80,
+        slidesPerGroup: 1,
+        speed: 600,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+        allowTouchMove: true,
+        grabCursor: true,
+        breakpoints: {
+          0: { slidesPerView: 2, spaceBetween: 24 },
+          640: { slidesPerView: 3, spaceBetween: 40 },
+          768: { slidesPerView: 4, spaceBetween: 60 },
+          1024: { slidesPerView: 5, spaceBetween: 80 },
+        },
+      });
+    });
+  </script>
+
+  <!-- wowjs script 
+      -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <!-- link script flowbite -->
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+
 </html>
